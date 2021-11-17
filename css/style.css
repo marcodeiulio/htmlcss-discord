@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;;
 }
 
 /* utilities */
@@ -28,22 +29,28 @@
 	text-align: center;
 }
 
+a[class^="btn"] {
+	text-decoration: none;
+}
+
 /* header */
 
 .top-header {
 	background-color: #3161e0;
+
+	color: white;
+	font-size: 0.9rem;
 }
 
 .top-header .container>* {
 	display: inline-block;
+	vertical-align: middle;
 }
 
 .top-header .container {
 	margin: 0 auto;
-}
-
-.top-header .w-20 {
-
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 #top-login {
@@ -52,4 +59,26 @@
 
 nav ul {
 	list-style-type: none;
+	text-align: center;
 }
+
+nav li {
+	display: inline;
+	margin: 15px;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+.btn-small {
+	border-radius: 20px;
+	padding: 10px 12px;
+}
+
+.btn-light {
+	background-color: #fff;
+	color: black;
+}
+
