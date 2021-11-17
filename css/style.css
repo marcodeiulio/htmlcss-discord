@@ -82,6 +82,11 @@ a[class^="btn"] {
 	color: #033ee0;
 }
 
+.btn-violet {
+	background-color: #8ea1e1;
+	color: white;
+}
+
 /* header */
 
 header {
@@ -155,12 +160,16 @@ li a:hover {
 	margin-bottom: 30px;
 }
 
-
 /* main */
 
 main h2 {
 	font-size: 2.5rem;
 	margin-bottom: 20px;
+}
+
+main h3 {
+	font-size: 2rem;
+	/* margin-bottom: 50px; */
 }
 
 .col-text {
@@ -176,4 +185,19 @@ main h2 {
 
 .row {
 	margin: 200px auto;
+}
+
+.large-section {
+	text-align: center;
+	padding: 100px;
+}
+
+.adventure {
+	background-image: url(../img/stars.svg);
+	background-size: cover;
+	background-position: center;
+	background-position-y: 10px;
+	background-position-x: 0px;
+	padding-bottom: 50px;
+	padding-top: 50px;
 }
