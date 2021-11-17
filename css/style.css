@@ -33,11 +33,46 @@ a[class^="btn"] {
 	text-decoration: none;
 }
 
+.btn-small {
+	border-radius: 20px;
+	padding: 10px 12px;
+}
+
+.btn-large {
+	border-radius: 40px;
+	padding: 12px 24px;
+	margin: auto 10px;
+	font-size: 1.1rem;
+}
+
+.btn-light {
+	background-color: #fff;
+	color: #23272a;
+}
+
+.btn-light:hover {
+	color: #033ee0;
+}
+
+.btn-dark {
+	background-color: #23272a;
+	color: white;
+}
+
+.btn-dark:hover {
+	background-color: #fff;
+	color: #033ee0;
+}
+
 /* header */
 
-.top-header {
-	background-color: #3161e0;
+header {
+	height: 500px;
+	text-align: center;
+}
 
+.top-header {
+	background-color: #255ee9;
 	color: white;
 	font-size: 0.9rem;
 }
@@ -72,13 +107,34 @@ li a {
 	color: white;
 }
 
-.btn-small {
-	border-radius: 20px;
-	padding: 10px 12px;
+li a:hover {
+	text-decoration: underline;
 }
 
-.btn-light {
-	background-color: #fff;
-	color: black;
+/* spotlight */
+
+#spotlight {
+	display: inline-block;
+	width: 47%;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	color: white;
 }
 
+#spotlight-bg {
+	background-image: url(../img/jumbo.png);
+	background-position: center;
+	background-size: cover;
+
+}
+
+#spotlight h1 {
+	font-size: 3rem;
+	margin: 20px auto;
+}
+
+#spotlight p {
+	line-height: 30px;
+	margin-bottom: 30px;
+	font-size: 1.1rem;
+}
