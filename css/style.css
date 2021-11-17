@@ -31,14 +31,6 @@ p {
 	float: left;
 }
 
-.col-text {
-	padding: 0 60px;
-}
-
-.col-img {
-	
-}
-
 .w-20 {
 	width: 20%;
 }
@@ -171,3 +163,17 @@ main h2 {
 	margin-bottom: 20px;
 }
 
+.col-text {
+	width: calc(40% - 40px);
+	padding: 0 40px;
+	margin: 0 20px;
+}
+
+.col-img {
+	width: calc(60% - 60px);
+	margin: 0 30px;
+}
+
+.row {
+	margin: 200px auto;
+}
