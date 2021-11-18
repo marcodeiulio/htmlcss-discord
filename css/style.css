@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;;
+	font-family: 'Whitney', Helvetica Neue, Helvetica,Arial, sans-serif;;
 }
 
 img {
@@ -16,7 +16,7 @@ p {
 
 /* utilities */
 
-.clearfix {
+.clearfix::after {
 	clear: both;
 	content: '';
 	display: table;
