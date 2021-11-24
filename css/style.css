@@ -35,12 +35,32 @@ p {
 	width: 20%;
 }
 
+.w-25 {
+	width: 25%;
+}
+
+.w-30 {
+	width: 30%;
+}
+
 .w-40 {
 	width: 40%;
 }
 
+.w-50 {
+	width: 50%;
+}
+
 .w-60 {
 	width: calc(60% - 10px);
+}
+
+.w-80 {
+	width: 80%;
+}
+
+.w-100 {
+	width: 100%;
 }
 
 .text-center {
@@ -200,4 +220,83 @@ main h3 {
 	background-position-x: 0px;
 	padding-bottom: 50px;
 	padding-top: 50px;
+}
+
+/* footer */
+
+footer {
+	background-color: #23272a;
+	padding: 80px;
+}
+
+footer col {
+	margin: auto;
+}
+
+h4 {
+	color: #7289da;
+	font-size: 2rem;
+}
+
+h6 {
+	color: #7289da;
+	font-size: 1.1rem;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer li {
+	margin: 15px 0;
+}
+
+footer .w-80 {
+	padding: 0 100px;
+}
+
+#language {
+	display: inline-block;
+	padding: 40px 30px 40px 5px;
+}
+
+#language a {
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#language img {
+	width: 20%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+
+#language a::after {
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+	font-size: 0.8rem;
+	content: ' \f107';
+}
+
+#bottom-footer {
+	width: 100%;
+}
+
+#bottom-footer figure {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#bottom-footer a {
+	vertical-align: middle;
+}
+
+footer hr {
+	color: #7289da;
+	margin: 20px auto;
+}
+
+footer .align-right {
+	text-align: right;
 }
